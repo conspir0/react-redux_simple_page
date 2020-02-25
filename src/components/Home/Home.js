@@ -27,9 +27,9 @@ class Home extends Component {
             <img src={Burger} alt="burger" />
             <div className="card-content">
               <Link to={"/" + post.id}>
-                <span className="card-title brown-text">{post.title}</span>
+                <span className="card-title orange-text">{post.title}</span>
               </Link>
-              <p className="card-text">{post.body}</p>
+              <p className="card-text brown-text">{post.body}</p>
             </div>
           </div>
         );
