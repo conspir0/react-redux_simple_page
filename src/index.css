@@ -8,3 +8,17 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.home .post img {
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  opacity: .5;
+  display: block;
+  height: 100%;
+}
+
+.home .post {
+  overflow: hidden;
+  padding-left: 100px;
+}
