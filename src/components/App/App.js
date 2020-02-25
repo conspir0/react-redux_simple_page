@@ -17,7 +17,6 @@ class App extends Component {
           <Route path="/contact" component={Contact} />
           <Route path="/:post_id" component={Post} />
         </Switch>
-        ł
       </Router>
     );
   }
