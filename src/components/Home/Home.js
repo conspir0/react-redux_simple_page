@@ -20,7 +20,7 @@ class Home extends Component {
   // }
 
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     // const { posts } = this.state;
     const { posts } = this.props;
     const postList = posts.length ? (

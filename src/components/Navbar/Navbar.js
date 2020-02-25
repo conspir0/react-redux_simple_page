@@ -2,8 +2,6 @@ import React from "react";
 import { Link, NavLink, withRouter } from "react-router-dom";
 
 const Navbar = props => {
-  setTimeout(() => props.history.push("/"), 20000);
-
   return (
     <nav className="nav-wrappr brown darken-3">
       <div className="container">
